@@ -37,3 +37,6 @@ npm run server
 ## Usage
 
 After you see `Start the simulation with runtime (... ticks if choose selected tick run)` then go to `localhost:21025` and check out the progress of your bot
+
+## HAVE TO FIGURE OUT HOW TO ADD CLI COMMANDS. Below works
+echo "system.resumeSimulation()" | curl -X POST -H "content-type:text/plain" -d @- http://localhost:21026/cli
